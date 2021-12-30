@@ -1,1 +1,99 @@
+.body1 {
+  border: 1px solid rgb(224, 224, 224);
+  margin: auto;
+  align-items: flex-start;
+  background-color: #aee0f3;
+  background-blend-mode: multiply;
+}
+.body2 {
+  border: 1px solid rgb(224, 224, 224);
+  margin: auto;
+  align-items: flex-start;
+  background-color: #2b2bb4;
+}
 
+.body3 {
+  border: 1px solid rgb(224, 224, 224);
+  margin: auto;
+  align-items: flex-start;
+
+  background-image: linear-gradient(rgb(255, 255, 255), #00a2ff);
+}
+
+.body4 {
+  border: 1px solid rgb(224, 224, 224);
+  margin: auto;
+  align-items: flex-start;
+
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(253, 154, 62));
+}
+
+.body5 {
+  border: 1px solid rgb(224, 224, 224);
+  margin: auto;
+  align-items: flex-start;
+
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(107, 245, 255));
+}
+
+.body header {
+  background-color: rgb(248, 201, 99);
+  border-bottom: 1px solid black;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.navul1 {
+  margin-right: 50px;
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.navul2 {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.navul2 li a {
+  text-decoration: none;
+}
+
+.navul3 {
+  margin-left: auto;
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  margin-bottom: 0;
+}
+
+.navul3 li {
+  display: flex;
+  gap: 5px;
+  font-weight: bolder;
+}
+
+.background {
+  background-color: orange;
+  width: 100%;
+  max-height: fit-content;
+}
+
+.stay-in-touch {
+  margin-left: auto;
+}
+
+.button1 {
+  color: orange;
+}
