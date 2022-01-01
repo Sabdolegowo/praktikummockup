@@ -23,77 +23,107 @@
     <title>Mockup Kreasi.nurulfikri.ac.id</title>
     <style>
       .bege {
-        background-image: url("https://beta.nurulfikri.ac.id/media/k2/items/cache/88b3960361835836e444d41321daf95e_XL.jpg?t=1520577708");
-        width: 100%;
-        max-height: fit-content;
-        background-repeat: no-repeat;
+
+        background-image:url('https://beta.nurulfikri.ac.id/media/k2/items/cache/88b3960361835836e444d41321daf95e_XL.jpg?t=1520577708');
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+
         background-size: cover;
+    position: static;
       }
 
       a {
         color: black;
         text-decoration: none;
       }
+
+      /* .glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate; */
+/* }
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+} */
+
     </style>
+
+<div id="home" class="">
+  <nav class="nav">
+    <ul class="navul1">
+      <li>
+        <img
+          src="https://img.icons8.com/material-outlined/10/000000/rounded-rectangle.png"
+          alt=""
+        />
+        <a class="sabdolegowo-com">sabdolegowo.com</a>
+      </li>
+    </ul>
+    <div style="color: black">
+      <ul class="navul2">
+        <li><a href="#home">Home</a> |</li>
+        <li><a href="#prodi">Program Studi</a> |</li>
+        <li>
+          <a href="#cont">Contact us</a>
+        </li>
+      </ul>
+    </div>
+
+    <ul class="navul3">
+      <li>
+        <i class="bi bi-search"></i>
+      </li>
+    </ul>
+  </nav>
+
+
+  <main class=" bege mb-2 p-5 text-center body1">
+
+
+    
+    <h2 style="margin-top: 60px;text-shadow: 3px 3px #2e2d2d; color: #fff;">STT Terpadu Nurul Fikri</h2>
+
+    <p style="text-shadow: 3px 3px 3px #000000; color: white; font-size: x-large;" class="lead">
+      <b>Sekolah Tinggi Teknologi Terpadu Nurul Fikri merupakan lembaga
+        pendidikan tinggi swasta di Indonesia yang berdiri pada tahun 2012
+        di Kota Depok.
+        </b>
+    </p>
+
+    <p class="lead" style="margin-top: 20%; position: relative">
+      <a href="#apa" class="btn btn-lg bg-white w-bold shadow-lg">
+        <b>AYO MULAI!</b></a
+      >
+    </p>
+  </main>
+
+
   </head>
   <body class="body border-3">
     <header class="border-dark border-3">
-      <nav id="home" class="nav">
-        <ul class="navul1">
-          <li>
-            <img
-              src="https://img.icons8.com/material-outlined/10/000000/rounded-rectangle.png"
-              alt=""
-            />
-            <a class="sabdolegowo-com">sabdolegowo.com</a>
-          </li>
-        </ul>
-        <div style="color: black">
-          <ul class="navul2">
-            <li><a href="#home">Home</a> |</li>
-            <li><a href="#prodi">Program Studi</a> |</li>
-            <li>
-              <a href="#cont">Contact us</a>
-            </li>
-          </ul>
-        </div>
-
-        <ul class="navul3">
-          <li>
-            <i class="bi bi-search"></i>
-            <i class="bi bi-cart"></i>
-            <p>Cart (1)</p>
-          </li>
-        </ul>
-      </nav>
+     
     </header>
 
-    <divclass="m-4">
-      <main class="bege mb-2 p-5 text-center body1">
-        <h2>STT Terpadu Nurul Fikri</h2>
-
-        <p class="lead">
-          <b
-            >Sekolah Tinggi Teknologi Terpadu Nurul Fikri merupakan lembaga
-            pendidikan tinggi swasta di Indonesia yang berdiri pada tahun 2012
-            di Kota Depok melalui Surat Keputusan Menteri Pendidikan dan
-            Kebudayaan No. 269/E/O/2012 tanggal 13 Agustus 2012.</b
-          >
-        </p>
-
-        <p class="lead" style="margin-top: 20%; position: relative">
-          <a href="#apa" class="btn btn-lg bg-white w-bold shadow-lg">
-            <b>AYO MULAI!</b></a
-          >
-        </p>
-      </main>
-
-      <div id="apa" class="d-flex p-5 body2 mb-2 justify-content-evenly">
+   
+      <div
+        id="apa"
+        class="flex-container p-5 body2 mb-2 justify-content-evenly"
+      >
         <div style="color: whitesmoke" class="lead p-5">
           <h2>APA KATA MEREKA?</h2>
         </div>
         <br /><br />
-        <div class="d-flex align-items-center">
+        <div class="flex-container align-items-center">
           <i class="bi bi-person-fill" style="font-size: 150px"></i>
 
           <div class="text-left">
@@ -104,7 +134,7 @@
             <p style="color: white"><b>--Agus</b></p>
           </div>
         </div>
-        <div class="d-flex align-items-center">
+        <div class="flex-container align-items-center">
           <i class="bi bi-person-fill" style="font-size: 150px"></i>
 
           <div class="text-left">
@@ -118,78 +148,64 @@
       </div>
     </div>
 
-    <div id="prodi" class="p-5 body3 mb-2">
-      <h1 class="w-100">Jurusan Sistem Informasi</h1>
-      <div class="d-flex justify-content-between">
-        <p style="width: 35%; height: auto">
-          Jurusan Sistem Informasi adalah bidang keilmuan yang menggabungkan
+    <hr class="featurette-divider">
+      
+    <div class="row featurette body3">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Prodi Sistem Informasi
+        <p class="lead pt-3">Jurusan Sistem Informasi adalah bidang keilmuan yang menggabungkan
           ilmu komputer dengan bisnis dan manajemen. Di prodi ini kamu akan
           belajar gimana mengidentifikasi kebutuhan dan proses bisnis perusahaan
           berdasarkan data-data yang dimiliki perusahan, kemudian merancang
-          sistem yang sesuai dengan kebutuhan perusahaan. Jadi, selain belajar
-          teknik pemrograman, kamu juga dituntut untuk mempelajari proses bisnis
-          yang ada di perusahaan.
-        </p>
-        <img
-          style="max-width: 400px; height: auto; object-fit: cover"
-          src="https://fatkhan.web.id/wp-content/uploads/2019/05/fatkhan.web_.id-Pengertian-Sistem-Informasii.jpg"
-          alt=""
-        />
+          sistem yang sesuai dengan kebutuhan perusahaan.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" 
+        style="width: 500; height: 500;" src="https://fatkhan.web.id/wp-content/uploads/2019/05/fatkhan.web_.id-Pengertian-Sistem-Informasii.jpg" alt="">
+
+      </div>
+    </div>
+    
+    <hr class="featurette-divider">
+      
+    <div class="row featurette body4">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Prodi Teknik Informatika
+        <p class="lead pt-3"> Teknik Informatika merupakan bidang ilmu yang mempelajari bagaimana
+          menggunakan teknologi komputer secara optimal guna menangani masalah
+          transformasi atau pengolahan data dengan proses logika.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" 
+        style="width: 500; height: 500;" src="https://informatics.uii.ac.id/wp-content/uploads/2021/06/programmer-1030x687.jpg" alt="">
+
       </div>
     </div>
 
-    <div class="p-5 body4 mb-2">
-      <h1 class="w-100">Jurusan Teknik Informatika</h1>
-      <div class="d-flex justify-content-between">
-        <p style="width: 35%">
-          Teknik Informatika merupakan bidang ilmu yang mempelajari bagaimana
-          menggunakan teknologi komputer secara optimal guna menangani masalah
-          transformasi atau pengolahan data dengan proses logika. Di Jurusan
-          Teknik Informatika kamu akan mempelajari berbagai prinsip terkait ilmu
-          komputer mulai dari proses perancangan, pengembangan, pengujian,
-          hingga evaluasi sistem operasi perangkat lunak. Selama kuliah kamu
-          akan banyak mengkaji pemrograman dan komputasi, dan dibekali pula
-          dengan keterampilan merancang perangkat lunak.
-        </p>
-        <br />
-        <img
-          style="max-width: 400px; height: auto; object-fit: cover"
-          src="https://informatics.uii.ac.id/wp-content/uploads/2021/06/programmer-1030x687.jpg"
-          alt=""
-        />
-      </div>
-    </div>
-    <div class="p-5 body5 mb-2">
-      <h1 class="w-100">Jurusan Bisnis Digital</h1>
-      <div class="d-flex justify-content-between">
-        <p style="width: 35%">
-          Jurusan Bisnis Digital merupakan rumpun ilmu terapan yang
+    <hr class="featurette-divider">
+      
+    <div class="row featurette body5">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Prodi Bisnis Digital
+        <p class="lead pt-3">Jurusan Bisnis Digital merupakan rumpun ilmu terapan yang
           mengaplikasikan bagaimana proses merancang suatu bisnis digital. Ilmu
           yang akan kamu peroleh di jurusan ini merupakan perpaduan dari bidang
-          ilmu manajemen, bisnis, sistem informasi, hingga teknik informatika.
-          Secara umum, jurusan ini ditujukan untuk mempersiapkan sumber daya
-          manusia (SDM) yang mampu menguasai bidang startup digital dan
-          marketplace. Gelar sarjana yang diperoleh lulusannya pun bukan Sarjana
-          Ekonomi atau Sarjana Manajemen, melainkan Sarjana Bisnis Digital
-          (S.BD).
-        </p>
-        <img
-          style="max-width: 400px; height: auto; object-fit: cover"
-          src="https://selular.id/wp-content/uploads/2018/12/161937-gestion-tienda-fisica-y-online-696x325.jpg"
-          alt=""
-        />
+          ilmu manajemen, bisnis, sistem informasi, hingga teknik informatika.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" style="width: 500; height: 500;" src="https://selular.id/wp-content/uploads/2018/12/161937-gestion-tienda-fisica-y-online-696x325.jpg" alt="">
+
       </div>
     </div>
-    <div id="cont" class="p-5 background mb-2 text-center">
+
+    <div id="cont" class="p-5 body1 mb-2 text-center">
       <h3>Temukan Kami</h3>
       <div class="d-flex justify-content-evenly">
         <i class="bi bi-instagram" style="font-size: 60px"></i>
         <i class="bi bi-linkedin" style="font-size: 60px"></i>
-        <i class="bi bi-pinterest" style="font-size: 60px"></i>
         <i class="bi bi-twitter" style="font-size: 60px"></i>
         <i class="bi bi-whatsapp" style="font-size: 60px"></i>
         <i class="bi bi-facebook" style="font-size: 60px"></i>
-        <i class="bi bi-github" style="font-size: 55px"></i>
       </div>
     </div>
 
@@ -231,37 +247,20 @@
       </div>
     </div>
 
-    <footer class="border-dark border-3 border-top d-grid gap-1">
-      <div class="d-flex pt-3">
+    <footer class="body2 border-dark border-3 border-top d-grid gap-1">
+      <div class="flex-container pt-3">
         <a class="me-4" style="font-weight: bolder" href="">sabdolegowo.com</a>
         <a class="mx-2" href="">Category</a>|
         <a class="mx-2" href="">Category</a>|
         <a class="mx-2" href="">Category</a>
-        <a class="stay-in-touch" href="">Stay In Touch</a>
-      </div>
-      <div class="d-flex pt-3">
-        <img
-          style="height: 20px"
-          src="https://img.icons8.com/ios-glyphs/20/000000/visa.png"
-          alt=""
-        />
-        <img
-          style="height: 20px"
-          src="https://img.icons8.com/ios-glyphs/20/000000/mastercard-credit-card.png"
-          alt=""
-        />
-        <img
-          style="height: 20px"
-          src="https://img.icons8.com/ios-glyphs/20/000000/amex.png"
-          alt=""
-        />
+
         <div style="display: flex; margin-left: auto">
           <input
             style="font-weight: bolder; height: 20px"
             type="text"
             placeholder="Enter Email"
           />
-          <p style="background-color: blanchedalmond">Subscribe</p>
+          <p style="background-color: blanchedalmond">Submit</p>
         </div>
       </div>
     </footer>
